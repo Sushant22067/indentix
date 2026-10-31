@@ -1,0 +1,3 @@
+import {projects} from "@/data/projects";import {ProjectCard} from "@/components/project-card";
+export const metadata={title:"Work — Indentix Studio"};
+export default function Work(){return <main className="page wrap"><div className="page-heading"><p className="eyebrow">THE GOOD STUFF / 2026</p><h1>Work with<br/><em>a point of view.</em></h1><p>A mix of live builds, concept projects and experiments. Every project starts with a problem worth solving.</p></div><div className="work-grid">{projects.map((p,i)=><ProjectCard key={p.slug} project={p} index={i}/>)}</div><p className="fine-print">Concept projects are clearly labelled. We don't dress experiments up as client commissions.</p></main>}

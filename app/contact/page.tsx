@@ -1,0 +1,3 @@
+import {ContactForm} from "@/components/contact-form";
+export const metadata={title:"Contact — Indentix Studio"};
+export default function Contact(){return <main className="page wrap contact-page"><div className="page-heading"><p className="eyebrow">THE NEXT GOOD THING STARTS HERE</p><h1>Let's make<br/><em>some noise.</em></h1><p>Tell us what you're thinking. Big brief, small question or half-formed idea — we're all ears.</p></div><div className="contact-layout"><div><p className="eyebrow">DROP US A LINE</p><h2>Good conversations<br/>make good work.</h2><a href="mailto:hello@indentixstudio.com">hello@indentixstudio.com ↗</a><p className="contact-small">INDIA · WORKING EVERYWHERE</p></div><ContactForm/></div></main>}

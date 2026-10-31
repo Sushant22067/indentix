@@ -1,0 +1,1 @@
+import Link from "next/link";export default function NotFound(){return <main className="page wrap not-found"><p className="eyebrow">404 / WRONG TURN</p><h1>Well, this is<br/><em>awkward.</em></h1><Link className="btn btn-white" href="/">Take me home ↗</Link></main>}
