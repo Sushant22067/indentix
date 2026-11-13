@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "c38fed0cef7a8133b6022ebfc9668273",
-    "previewModeSigningKey": "6884da9eee363a72b08e2931445f4c53b4c50c86c9236cf1b07eda8db8357d21",
-    "previewModeEncryptionKey": "dbf9328d436bfc98fe3a12888ccee155fbb758c433e9c494a79ed89cd86f052b"
-  }
-}
+{"version":4,"routes":{"/work/shello":{},"/work/tej-institute":{},"/work/riyanshi-glow":{},"/work/fit-form":{}},"dynamicRoutes":{"/work/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/work/[slug]","routeRegex":"^\\/work\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"2992737cafb7e075f9bf9ba2bac54f7b","previewModeSigningKey":"7c042906873541d3b695be46192f7fb997978e5fa6e1858f5601e4dee9c7b4c2","previewModeEncryptionKey":"ba30ad3fe227f798cf5acff95f88a5469b590f4f59ce6d3fd0b0a9ef9b28e4e0"}}
